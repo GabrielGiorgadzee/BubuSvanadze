@@ -4,7 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+          } else {
+            $(".item").addClass("active");
+          }
+        });
+      });
+    </script>
     <title>Bubu Svanadze</title>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#">Bubu Svanadze</a></li>
+        <li class="item"><a href="#">მთავარი</a></li>
+        <li class="item"><a href="#">ჩემს შესახებ</a></li>
+        <li class="item"><a href="#">კონტაქტი</a></li>
+        <li class="item"><a href="#">გალერეა</a></li>
+        <li class="item">
+          <a href="#">შემქმნელების შესახებ</a>
+        </li>
+        <li class="toggle">
+          <span class="bars"></span>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <a href="#" style="position: fixed; bottom: 0"
+        >https://github.com/GabrielGiorgadzee</a
+      >
+    </main>
+  </body>
 </html>
