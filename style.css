@@ -95,6 +95,11 @@ a:hover {
   gap: 5px;
   margin-top: 20px;
 }
+
+button {
+  cursor: pointer;
+}
+
 .carousel .list .item .buttons button {
   border: none;
   background-color: #eee;
@@ -164,7 +169,6 @@ a:hover {
   font-family: monospace;
   font-weight: bold;
   transition: 0.5s;
-  cursor: pointer;
 }
 .arrows button:hover {
   background-color: #fff;
