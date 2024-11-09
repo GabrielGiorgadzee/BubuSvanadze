@@ -164,6 +164,7 @@ a:hover {
   font-family: monospace;
   font-weight: bold;
   transition: 0.5s;
+  cursor: pointer;
 }
 .arrows button:hover {
   background-color: #fff;
